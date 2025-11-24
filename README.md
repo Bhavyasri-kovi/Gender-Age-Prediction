@@ -25,16 +25,17 @@ A real-time computer vision application that predicts **gender** and **age** fro
 ## 📁 Project Structure
 Gender-Age-Prediction/
 │
-├── app.py # Flask web application
-├── webcam.py # Real-time webcam prediction
-├── detect.py # Age & gender classifier
+├── app.py                # Flask web application
+├── webcam.py             # Real-time webcam prediction
+├── detect.py             # Age & gender classifier
 ├── requirements.txt
 │
-└── models/ # Pretrained CNN models
-├── age_deploy.prototxt
-├── age_net.caffemodel
-├── gender_deploy.prototxt
-├── gender_net.caffemodel
+└── models/               # Pretrained CNN models
+    ├── age_deploy.prototxt
+    ├── age_net.caffemodel
+    ├── gender_deploy.prototxt
+    ├── gender_net.caffemodel
+
 
 
 ---
